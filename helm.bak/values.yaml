@@ -1,16 +1,13 @@
-
 frontend:
   image: lyzhang1999/frontend
-  tag: latest
+  tag: '1276e23'
   autoscaling:
     averageUtilization: 90
-
 backend:
   image: lyzhang1999/backend
-  tag: latest
+  tag: '1276e23'
   autoscaling:
     averageUtilization: 90
-
 database:
   enabled: true
   uri: pg-service

@@ -1,3 +1,4 @@
+
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
@@ -10,7 +11,6 @@ spec:
       target:
         type: Utilization
         averageUtilization: 90
-
 ---
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler

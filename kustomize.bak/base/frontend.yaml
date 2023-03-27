@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: react-frontend
-        image: "{{ .Values.frontend.image }}:{{ .Values.frontend.tag }}"
+        image: lyzhang1999/frontend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3000

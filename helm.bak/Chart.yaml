@@ -1,4 +1,3 @@
-
 apiVersion: v2
 name: kubernetes-example
 description: A Helm chart for Kubernetes
